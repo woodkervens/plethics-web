@@ -21,9 +21,13 @@
         <!-- Groupe de gauche -->
         <div class="nav-left">
             <!-- Bouton Menu Hamburger -->
-            <label for="nav-toggle" class="nav-hamburger" aria-label="Ouvrir le menu">
+
+             <!-- On place l'aria-label sur l'input -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Ouvrir le menu">
+        <!-- On enlève l'aria-label d'ici -->
+        <label for="nav-toggle" class="nav-hamburger">
         <span></span><span></span><span></span>
-      </label>
+        </label>  
             <!-- Logo du site -->
             <a href="/index.html" class="logo">
                 <img src="logo/logo.png" alt="Plethics Logo">
@@ -62,6 +66,9 @@
 
         <!--Bloc2- HERO-->
         <section class="hero" id="hero">
+            <!-- Titre masqué uniquement pour valider la section et aider le SEO -->
+    <h1 class="visually-hidden">Accueil - Plethics</h1>
+
       <div class="hero-overlay"></div>
       <div class="hero-content">
 
@@ -108,16 +115,25 @@
 
       <div class="catalog-grid">
         <article class="catalog-item">
+            <!-- Titre masqué uniquement pour valider la section et aider le SEO -->
+    <h2 class="visually-hidden">catalog - Plethics</h2>
+
           <div class="catalog-img"><img src="img/tshirt.jpg" alt="Produit à venir 1"></div>
           <button type="button" class="btn-see-more">waitlist</button>
         </article>
 
         <article class="catalog-item">
+            <!-- Titre masqué uniquement pour valider la section et aider le SEO -->
+    <h2 class="visually-hidden">catalog - Plethics</h2>
+
           <div class="catalog-img"><img src="img/zip.jpg" alt="Produit à venir 2"></div>
           <button type="button" class="btn-see-more">waitlist</button>
         </article>
 
         <article class="catalog-item">
+            <!-- Titre masqué uniquement pour valider la section et aider le SEO -->
+    <h2 class="visually-hidden">catalog - Plethics</h2>
+
           <div class="catalog-img"><img src="img/compression.jpg" alt="Produit à venir 3"></div>
           <button type="button" class="btn-see-more">waitlist</button>
         </article>
